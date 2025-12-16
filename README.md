@@ -1,4 +1,4 @@
-# Builder Pattern – Java Example
+🎓 Builder Pattern – Java Implementation (University Academic Structure)
 
 This project demonstrates the **Builder Pattern** in Java using a simple **University Academic Structure**.  
 The program constructs a university step by step by adding **faculties**, **departments**, and **courses**.
