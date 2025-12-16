@@ -26,7 +26,9 @@ Using Command Line:
 'bash'
 javac src/builder/pattern/*.java
 java builder.pattern.BuilderPattern
+
 🖥 Expected Output
+
 University Structure:
 Faculties: [Faculty of Engineering]
 Departments: [Department of Software Engineering]
