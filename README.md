@@ -1,21 +1,32 @@
-# Builder Pattern –Java Code 
+# Builder Pattern – Java Example
 
-This project is a Java implementation of the Builder Pattern using a simple University structure. The program builds a university by adding faculties, departments, and courses step by step.
+This project demonstrates the **Builder Pattern** in Java using a simple **University Academic Structure**.  
+The program constructs a university step by step by adding **faculties**, **departments**, and **courses**.
 
-The project contains the following classes:
-UniversityStructure.java (stores faculties, departments, and courses),
-UniversityBuilder.java (builder interface),
-ConcreteUniversityBuilder.java (implements the builder),
-UniversityDirector.java (controls the building process),
-BuilderPattern.java (main class to run the program).
+---
 
-To run the program using NetBeans, open the project, right-click BuilderPattern.java, and select Run File.
+## 📂 Project Files
 
-To run using the command line, open a terminal in the project folder and run:
+- **`UniversityStructure.java`** – Stores the university data (faculties, departments, courses)  
+- **`UniversityBuilder.java`** – Builder interface defining the construction steps  
+- **`ConcreteUniversityBuilder.java`** – Implements the builder logic  
+- **`UniversityDirector.java`** – Controls the building process  
+- **`BuilderPattern.java`** – Main class to run the program  
+
+---
+
+## ▶ How to Run
+
+**Using NetBeans:**  
+1. Open the project in NetBeans  
+2. Right-click `BuilderPattern.java`  
+3. Select **Run File**
+
+Using Command Line: 
+'bash'
 javac src/builder/pattern/*.java
 java builder.pattern.BuilderPattern
-
-Output:
+🖥 Expected Output
 University Structure:
 Faculties: [Faculty of Engineering]
 Departments: [Department of Software Engineering]
